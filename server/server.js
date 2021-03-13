@@ -10,6 +10,7 @@ const PORT = process.env.PORT || 5000;
 //middlewares
 app.use(express.static(path.resolve('public')))
 app.use('/project-resources', express.static(path.resolve('public/proyectos')))
+app.use('/portfolio',express.static(path.resolve('public')))
 app.use(cors())
 
 // routes
