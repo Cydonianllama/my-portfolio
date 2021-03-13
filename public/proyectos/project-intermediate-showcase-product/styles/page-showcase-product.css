@@ -1,0 +1,37 @@
+.page-showcase-product-header{
+    height: 10vh;
+}
+.page-showcase-product-main-section{
+    position: relative;
+    height: 90vh;
+}
+.page-showcase-product-main-section .main-section-first-section{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+}
+.main-section-first-section #product-showcase{
+    width: 70%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-section-first-section #bucket{
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-showcase-product-main-section #product-suggestions{
+    height: 30vh;
+}
+.page-showcase-product-footer{
+    height: 15vh;
+}
+
+.hint-section{
+    position: absolute;
+    width: 100%;
+}

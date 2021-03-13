@@ -1,0 +1,26 @@
+/*item*/
+.shipping-method-item{
+    display: flex;
+    justify-content: center;
+    gap: 0.3rem;
+    align-items: center;
+    flex-direction: column;
+}
+.shipping-method-item button{
+    width: 95px;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: rgba(236, 236, 236, 0.336);
+}
+.shipping-method-price::before{
+    content: "s/.";
+}
+
+/*/container*/
+.shipping-methods-component #shipping-methods-container{
+    display: flex;
+    justify-content: space-between;
+}

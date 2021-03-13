@@ -1,0 +1,116 @@
+/*showcase*/
+.product-showcase-component{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 500px;
+    width: 100%;
+    background-color: rgba(255, 253, 253, 0.932);
+}
+.product-showcase-header{
+    padding: 15px 0;
+}
+.product-showcase-header .product-showcase-name-product{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.product-showcase-header .product-showcase-images{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(163, 163, 163, 0.103);
+}
+.product-showcase-header .product-showcase-images img {
+    width: 250px;
+    object-fit: cover;
+}
+
+.product-showcase-content{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    max-width: 240px;
+    padding: 15px 0;
+}
+.product-showcase-content #meassurement-product-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.product-showcase-content #shipping-methods{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-showcase-content .product-showcase-sum-subtract-quantity-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-showcase-content .product-showcase-sum-subtract-quantity-wrapper .product-showcase-sum-subtract-quantity {
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    overflow: hidden;
+    font-size: 1rem;
+    font-weight: 600;
+    user-select: none;
+}
+
+.product-showcase-content .product-showcase-sum-subtract-quantity-wrapper .product-showcase-sum-subtract-quantity #quantity-product{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-showcase-content .product-showcase-sum-subtract-quantity-wrapper .product-showcase-sum-subtract-quantity button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(22, 236, 165);
+}
+.product-showcase-content .product-showcase-sum-subtract-quantity-wrapper .product-showcase-sum-subtract-quantity button:hover{
+    background-color: rgb(76, 240, 185);
+}
+.product-showcase-component .product-showcase-espec{
+    width: 250px;
+    padding: 15px 0;
+}
+.product-showcase-component .product-showcase-footer{
+    padding: 15px 0;
+}
+
+.product-showcase-component .product-showcase-footer button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(22, 236, 165);
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.product-showcase-component .product-showcase-footer button:hover{
+    background-color: rgb(76, 240, 185);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.product-showcase-final{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

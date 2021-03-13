@@ -1,0 +1,51 @@
+#hint-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+.hint-item-component{
+    width: 100%;
+    height: 5vh;
+    
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    user-select: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hint-item-component-success{
+    background-color: rgb(74, 248, 141);
+}
+.hint-item-component-error{
+    background-color: rgb(248, 95, 95);
+}
+
+.hint-item-component button{
+    outline: none;
+    border: none;
+    color: white;
+    background: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0 1.2rem;
+}
+.representer-bucket-footer{
+    width: 100%;
+}
+#btn-proccess-bucket{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(0, 81, 255);
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+#btn-proccess-bucket:hover{
+    background-color: rgb(62, 118, 240);
+}

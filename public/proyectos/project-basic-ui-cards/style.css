@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.product-card-container{
+    display : flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #f8f8f8;
+    gap:40px
+}
+
+
+
+
+
+/* product type 1*/
+
+.product-card1{
+    background-color: white;
+    padding: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 380px;
+}
+.product-card1-header{
+    display: flex;
+    justify-content: space-between;
+}
+.product-card1-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+.product-card1-image-container{
+}
+.product-card1-hearth{
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.product-card1-image{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
+
+
+
+
+/* product type 2*/
+
+.product-card2{
+    position: relative;
+    background-color: white;
+    padding: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    width: 240px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product-card2-image{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.product-card2-discount{
+    position: absolute;
+    display: flex;
+    top: 15px;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: red;
+    clip-path: polygon(0 0, 100% 0, 87% 100%, 0% 100%);
+    color : white;
+    height: 30px;
+    width: 80px;
+    user-select: none;
+}
+.product-card2-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+
+
+
+/* product card 3 */
+.product-card3{
+    position: relative;
+    background-color: white;
+    padding: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    width: 240px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product-card3-content{
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product-card3-image{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.product-card3-title{
+    color: rgb(100, 100, 100);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.product-card3-state{
+    padding: 5px;
+    border-radius: 8px;
+    background-color: rgba(255, 28, 28, 0.719);
+    color : white;
+    position: absolute;
+}
+.product-card3-info{
+    display: flex;
+    justify-content: space-between;
+}
+.product-card3-current-price::before{
+    content: 's/.';
+}
+.product-card3-current-price{
+    padding: 5px;
+    background-color: rgba(172, 255, 47, 0.377);
+    font-size: 1rem;
+    color: gray;
+}
+.product-card3-base-price::before{
+    content: 's/.';
+}
+.product-card3-base-price{
+    padding: 5px;
+    font-size: 1rem;
+    text-decoration: line-through;
+}
+.product-card3-prices{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}

@@ -1,0 +1,69 @@
+
+.representer-bucket-component{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.representer-bucket-component .representer-bucket-header{
+    padding: 15px 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.representer-bucket-header .representer-bucket-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.representer-bucket-component .representer-bucket-content{
+    padding-bottom: 15px;
+    width: 100%;
+}
+#products-in-bucket{
+    height: 250px;
+    width: 100%;
+    display: block;
+    overflow-y: auto;
+}
+
+/* item */
+.bucket-item-component{
+    user-select: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.bucket-item-component{
+    display: flex;
+    align-items: center;
+}
+.bucket-item-images img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.btn-remove-bucket-item{
+    background-color: rgba(243, 106, 106, 0.884);
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 6px;
+}
+.btn-remove-bucket-item:hover{
+    background-color: rgb(240, 83, 83);
+}
+.bucket-item-quantity{
+    padding: 3px;
+    font-size: 10px;
+    background-color: rgb(37, 104, 247);
+    color: white;
+    border-radius: 5px;
+}
