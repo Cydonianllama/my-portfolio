@@ -5,7 +5,7 @@ const path = require('path')
 const cors = require('cors')
 
 // configuration
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 
 //middlewares
 app.use(express.static(path.resolve('public')))
@@ -47,6 +47,9 @@ app.get('/projects/:name',(req,res)=>{
             break
         case 'showcase-product':
             res.sendFile(path.resolve('public/proyectos/project-intermediate-showcase-product/index.html'))
+            break
+        case 'dashboard-one':
+            res.sendFile(path.resolve('public/proyectos/project-itermediate-dashboard-1/index.html'))
             break
 
     }
