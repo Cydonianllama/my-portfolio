@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Grandez</title>
     <link rel="stylesheet" href="/portfolio/styles/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
@@ -63,7 +64,7 @@
                 <h3 class ="what-do-name">Que hago ?</h3>
             </div>
             <div class = "what-do-content-wrapper">
-                <div class ="what-do-content">
+                <div class ="what-do-content" data-aos="fade-down">
                     <div class="what-do-item">
                         <span class="decorator-what-do"></span>
                         <span class = "what-do-item-name">Diseño y maquetacion de sitios Web utilizando conceptos <span class = "item-resalt">UI/UX</span></span>
@@ -121,7 +122,49 @@
                                     <h3 class="project-item-name">Card UI</h3>
                                     <span>UI/UX</span>
                                     <p class="project-item-description">
-                                        practicas para el desarrollo de protoripos de componentes
+                                        practicas para el desarrollo de prototipos de componentes
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="project-item-wrapper">
+                        <div class="project-item-badge project-level-basic">
+                            <h4 class="project-item-level">basico</h4>
+                        </div>
+                        <a class="project-item" target="_blank" href="/projects/twitter-clone">
+                    
+                            <div class="project-item-content">
+                                <div class="project-item-content-background">
+                    
+                                </div>
+                                <div class="project-item-absolute-content">
+                                    <h3 class="project-item-name">Twitter clone UI</h3>
+                                    <span>UI/UX</span>
+                                    <p class="project-item-description">
+                                        practicas para el desarrollo de prototipos de componentes
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="project-item-wrapper">
+                        <div class="project-item-badge project-level-basic">
+                            <h4 class="project-item-level">basico</h4>
+                        </div>
+                        <a class="project-item" target="_blank" href="/projects/linkedin-clone">
+                    
+                            <div class="project-item-content">
+                                <div class="project-item-content-background">
+                    
+                                </div>
+                                <div class="project-item-absolute-content">
+                                    <h3 class="project-item-name">Linkedin clone UI</h3>
+                                    <span>UI/UX</span>
+                                    <p class="project-item-description">
+                                        practicas para el desarrollo de prototipos de componentes
                                     </p>
                                 </div>
                             </div>
@@ -360,5 +403,9 @@
 
     </main>
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <script src = "/portfolio/js/index.js"></script>
 </html>

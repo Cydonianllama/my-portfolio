@@ -51,6 +51,12 @@ app.get('/projects/:name',(req,res)=>{
         case 'dashboard-one':
             res.sendFile(path.resolve('public/proyectos/project-itermediate-dashboard-1/index.html'))
             break
+        case 'linkedin-clone':
+            res.sendFile(path.resolve('public/proyectos/project-basic-linkedin-clone/index.html'))
+            break
+        case 'twitter-clone':
+            res.sendFile(path.resolve('public/proyectos/project-basic-twitter-clone/index.html'))
+            break
 
     }
 })
